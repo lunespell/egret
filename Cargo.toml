@@ -1,0 +1,15 @@
+[package]
+name = "egret"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+path = "src/lib/lib.rs"
+
+[[bin]]
+name = "egret_bin"
+path = "src/bin/main.rs"
+
+[dependencies]
+macroquad = "0.4.13"
+rust-embed = "8.5.0"
